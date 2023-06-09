@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar"
+import Recipes from './pages/recipes'
+import Products from './pages/prducts'
 
 function App() { 
   
@@ -16,7 +18,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/"/>
-          <Route path="/cart"/>
+          <Route path="/recipes" element={<Recipes />}/>
+          <Route path="/products" element={<Products />}/>
         </Routes>
       </Router>
     </div>

@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Recipes(){
+export default function Products(){
     return(
         <div>
-            Recipes
+            Products
         </div>
     )
 }
