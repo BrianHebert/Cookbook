@@ -5,7 +5,7 @@ import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from "./components/Navbar.jsx"
+import Navbar from "./components/Navbar"
 
 function App() { 
   
