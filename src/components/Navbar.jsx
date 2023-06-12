@@ -10,23 +10,22 @@ const linkStyle ={
 }
 
 const NavbarStyling = styled.ul`
-  .logo{
-    width: 200px;
-    max-height: 100px;
-  }
-  
-  .Nav, nav > a{
     display: flex;
     font-size: 30px;
     text-decoration: none;
     align-items: center;
-    padding: 20px;
-  }
-  a{
-    text-decoration: "none",
-    color : "black",
-    padding-left: "20px"
-  }
+    border: red 2px solid;
+    margin:0px;
+    padding:20px;
+    
+    .logo{
+        width: 200px;
+        max-height: 100px;
+    }
+  
+ 
+    
+
 `;
 
 export default function Navbar(){
