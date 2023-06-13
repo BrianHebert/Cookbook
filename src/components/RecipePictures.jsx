@@ -10,7 +10,7 @@ const ImgStyling = styled.ul`
 export default function RecipePictures(props){
     return(
         <ImgStyling >
-            <NavLink to= "/recipeInstructions" state={{url: props.item.url}}><img src={props.item.url}/></NavLink>
+            <NavLink to= "/recipeInstructions" state={{url: props.item.url}}><img src={props.item.url}/></NavLink> {/*this allows clicking the picture to pass the props down*/}
             <p className="ingredients">{props.item.ingredients}</p>
             <p className="preperation">{props.item.preperation}</p>
         </ImgStyling>
