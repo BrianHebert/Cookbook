@@ -22,10 +22,7 @@ const NavbarStyling = styled.ul`
         width: 200px;
         max-height: 100px;
     }
-  
  
-    
-
 `;
 
 export default function Navbar(){
