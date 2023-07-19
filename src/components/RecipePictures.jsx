@@ -7,6 +7,7 @@ const ImgStyling = styled.ul`
     padding: 10px;
     img{
         width:400px;
+        
     }
 `;
 
