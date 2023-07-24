@@ -4,7 +4,8 @@ export default {
         "recipes":[
             {
                 "id": "1",
-                "name": "Chocolate Chunk Cookies serves 12",
+                "name": "Chocolate Chunk Cookies",
+                "portion": "Serves 12",
                 "type": "Dessert",
                 "ingredients": "½ cup granulated sugar\n" +
                         "¾ cup brown sugar, packed\n" +
@@ -24,12 +25,13 @@ export default {
                                 "Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet, leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of space from the edges of the pan so that the cookies can spread evenly.\n" +
                                 "Bake for 12-15 minutes, or until the edges have started to barely brown.\n" +
                                 "Cool completely before serving.",
-                "url": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/tips/38fc8425e56c48c481dbbbc7460da565.jpeg?downsize=800:*&output-format=auto&output-quality=auto"
+                "url": "https://i.imgur.com/45DLFe3.jpg"
                                 
             },
             {
                 "id": "2",
-                "name": "Sweet Potato Pie serves 8",
+                "name": "Sweet Potato Pie",
+                "portion": "Serves 8",
                 "type": "Dessert",
                 "ingredients": "1 ½ lb dark-orange sweet potatoes\n" +
                         "1  refrigerated Pillsbury™ Pie Crust, softened as directed on box\n" +
@@ -45,12 +47,13 @@ export default {
                 "preperation": "Heat oven to 400°F. Line cookie sheet with foil. Place sweet potatoes on cookie sheet. Roast 1 hour or until tender. Cut potatoes in half. Scoop out pulp into medium bowl; discard skins. Reduce oven temperature to 350°F.\n" +
                                 "Place pie crust in 9-inch deep-dish pie plate as directed on box for One-Crust Filled Pie. Beat sweet potato pulp with electric mixer on medium speed until creamy. Add remaining ingredients; beat 1 minute or until well blended. Pour filling into crust-lined plate.\n" +
                                 "Bake 1 hour 15 minutes or until knife inserted near center comes out clean. Cool for 1 hour on cooling rack; cover loosely and refrigerate before serving. Store covered in refrigerator.",
-                "url": "https://images-gmi-pmc.edge-generalmills.com/e74e56f1-c580-430c-bc0e-93450f9eddd2.jpg"
+                "url": "https://i.imgur.com/ht8olAi.jpg"
                                 
             },
             {
                 "id": "3",
-                "name": "Tres Leches serves 12",
+                "name": "Tres Leches",
+                "portion": "Serves 12",
                 "type": "Dessert",
                 "ingredients": "1 cup all-purpose flour\n" +
                         "1 ½ teaspoons baking powder\n" +
@@ -75,11 +78,12 @@ export default {
                                 "Combine the evaporated milk, sweetened condensed milk, and whole milk in a small bowl. Once the cake has cooled use a fork to poke holes all over the top of the cake. \n" +
                                 "Slowly pour the milk mixture over the the top of the cake, making sure to pour near the edges and all around. Refrigerate the cake for at least 1 hour or overnight, to allow it to soak up the milk.\n" +
                                 "In the meantime, whip the heavy cream, sugar and vanilla until stiff peaks. Smooth over the top of the cake. Sprinkle cinnamon on top. Serve with fresh sliced strawberries, if desired. Enjoy!\n",
-                "url": "https://tastesbetterfromscratch.com/wp-content/uploads/2017/04/Tres-Leches-Cake-1-1.jpg"
+                "url": "https://i.imgur.com/U2zibXk.jpg"
             },
             {
                 "id": "4",
-                "name": "Chicken Ramen serves 2",
+                "name": "Chicken Ramen",
+                "portion": "Serves 2",
                 "type": "Main Dish",
                 "ingredients": "2 chicken breasts (boneless, skin-on)\n" +
                         "kosher salt and freshly-ground black pepper, to season\n" +
@@ -105,11 +109,12 @@ export default {
                                 "Meanwhile, fill a large bowl with ice water. When the timer finishes, transfer the eggs to the ice bath to stop the cooking process. Wait at least 5 minutes, or until cool enough to handle, then carefully peel away the shell and slice in half, lengthwise. Set aside until ready to serve.\n" +
                                 "Meanwhile, chop the scallions and jalapeño (if using). Slice the chicken into thin pieces. Set aside. When the eggs finish cooking, add the ramen noodles to the boiling water.\n" +
                                 "Cook for 2-3 minutes, until soft, then divide the noodles into two large bowls. Add the sliced chicken and the ramen broth. Top with the fresh scallions, jalapeño, and the soft boiled egg. Serve immediately. Enjoy!!",
-                "url": "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-03.jpg"
+                "url": "https://i.imgur.com/W36DNP3.jpg"
             },
             {
                 "id": "5",
-                "name": "Baked Mac and Cheese serves 8",
+                "name": "Baked Mac and Cheese",
+                "portion": "Serves 8",
                 "type": "Main Dish",
                 "ingredients": "1 lb. dried elbow pasta\n" +
                         "1/2 cup unsalted butter\n" +
@@ -129,11 +134,12 @@ export default {
                                 "Remove from the heat and stir in spices and 1 1/2 cups of the cheeses, stirring to melt and combine.  Stir in another 1 1/2 cups of cheese, and stir until completely melted and smooth.\n" +
                                 "In a large mixing bowl, combine drained pasta with cheese sauce, stirring to combine fully.  Pour half of the pasta mixture into the prepared baking dish.  Top with 1 1/2 cups of shredded cheeses, then top that with the remaining pasta mixture.\n" +
                                 "Sprinkle the top with the last 1 1/2 cups of cheese and bake for 15 minutes, until cheesy is bubbly and lightly golden brown.\n",
-                "url": "https://www.thechunkychef.com/wp-content/uploads/2018/02/Ultimate-Creamy-Baked-Mac-and-Cheese-baking-dish-1089x1536.jpg"
+                "url": "https://i.imgur.com/qcMOUrb.jpg"
             },
             {
                 "id": "6",
-                "name": "Smashed Burger serves 4",
+                "name": "Smashed Burger",
+                "portion": "Serves 4",
                 "type": "Main Dish",
                 "ingredients": "1 1/2 pounds ground beef, 80/20 lean\n" +
                         "1/2 cup mayonnaise\n" +
@@ -158,7 +164,8 @@ export default {
             },
             {
                 "id": "7",
-                "name": "Chocolate Chunk Cookies serves 12",
+                "name": "Chocolate Chunk Cookies",
+                "portion": "Serves 12",
                 "type": "Dessert",
                 "ingredients": "½ cup granulated sugar\n" +
                         "¾ cup brown sugar, packed\n" +
@@ -178,12 +185,13 @@ export default {
                                 "Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet, leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of space from the edges of the pan so that the cookies can spread evenly.\n" +
                                 "Bake for 12-15 minutes, or until the edges have started to barely brown.\n" +
                                 "Cool completely before serving.",
-                "url": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/tips/38fc8425e56c48c481dbbbc7460da565.jpeg?downsize=800:*&output-format=auto&output-quality=auto"
+                "url": "https://i.imgur.com/45DLFe3.jpg"
                                 
             },
             {
                 "id": "8",
-                "name": "Sweet Potato Pie serves 8",
+                "name": "Sweet Potato Pie",
+                "portion": "Serves 8",
                 "type": "Dessert",
                 "ingredients": "1 ½ lb dark-orange sweet potatoes\n" +
                         "1  refrigerated Pillsbury™ Pie Crust, softened as directed on box\n" +
@@ -199,12 +207,13 @@ export default {
                 "preperation": "Heat oven to 400°F. Line cookie sheet with foil. Place sweet potatoes on cookie sheet. Roast 1 hour or until tender. Cut potatoes in half. Scoop out pulp into medium bowl; discard skins. Reduce oven temperature to 350°F.\n" +
                                 "Place pie crust in 9-inch deep-dish pie plate as directed on box for One-Crust Filled Pie. Beat sweet potato pulp with electric mixer on medium speed until creamy. Add remaining ingredients; beat 1 minute or until well blended. Pour filling into crust-lined plate.\n" +
                                 "Bake 1 hour 15 minutes or until knife inserted near center comes out clean. Cool for 1 hour on cooling rack; cover loosely and refrigerate before serving. Store covered in refrigerator.",
-                "url": "https://images-gmi-pmc.edge-generalmills.com/e74e56f1-c580-430c-bc0e-93450f9eddd2.jpg"
+                "url": "https://i.imgur.com/ht8olAi.jpg"
                                 
             },
             {
                 "id": "9",
-                "name": "Tres Leches serves 12",
+                "name": "Tres Leches",
+                "portion": "Serves 12",
                 "type": "Dessert",
                 "ingredients": "1 cup all-purpose flour\n" +
                         "1 ½ teaspoons baking powder\n" +
@@ -229,11 +238,12 @@ export default {
                                 "Combine the evaporated milk, sweetened condensed milk, and whole milk in a small bowl. Once the cake has cooled use a fork to poke holes all over the top of the cake. \n" +
                                 "Slowly pour the milk mixture over the the top of the cake, making sure to pour near the edges and all around. Refrigerate the cake for at least 1 hour or overnight, to allow it to soak up the milk.\n" +
                                 "In the meantime, whip the heavy cream, sugar and vanilla until stiff peaks. Smooth over the top of the cake. Sprinkle cinnamon on top. Serve with fresh sliced strawberries, if desired. Enjoy!\n",
-                "url": "https://tastesbetterfromscratch.com/wp-content/uploads/2017/04/Tres-Leches-Cake-1-1.jpg"
+                "url": "https://i.imgur.com/U2zibXk.jpg"
             },
             {
                 "id": "10",
-                "name": "Chicken Ramen serves 2",
+                "name": "Chicken Ramen",
+                "portion": "Serves 2",
                 "type": "Main Dish",
                 "ingredients": "2 chicken breasts (boneless, skin-on)\n" +
                         "kosher salt and freshly-ground black pepper, to season\n" +
@@ -259,11 +269,12 @@ export default {
                                 "Meanwhile, fill a large bowl with ice water. When the timer finishes, transfer the eggs to the ice bath to stop the cooking process. Wait at least 5 minutes, or until cool enough to handle, then carefully peel away the shell and slice in half, lengthwise. Set aside until ready to serve.\n" +
                                 "Meanwhile, chop the scallions and jalapeño (if using). Slice the chicken into thin pieces. Set aside. When the eggs finish cooking, add the ramen noodles to the boiling water.\n" +
                                 "Cook for 2-3 minutes, until soft, then divide the noodles into two large bowls. Add the sliced chicken and the ramen broth. Top with the fresh scallions, jalapeño, and the soft boiled egg. Serve immediately. Enjoy!!",
-                "url": "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-03.jpg"
+                "url": "https://i.imgur.com/W36DNP3.jpg"
             },
             {
                 "id": "11",
-                "name": "Baked Mac and Cheese serves 8",
+                "name": "Baked Mac and Cheese",
+                "portion": "Serves 8",
                 "type": "Main Dish",
                 "ingredients": "1 lb. dried elbow pasta\n" +
                         "1/2 cup unsalted butter\n" +
@@ -283,11 +294,12 @@ export default {
                                 "Remove from the heat and stir in spices and 1 1/2 cups of the cheeses, stirring to melt and combine.  Stir in another 1 1/2 cups of cheese, and stir until completely melted and smooth.\n" +
                                 "In a large mixing bowl, combine drained pasta with cheese sauce, stirring to combine fully.  Pour half of the pasta mixture into the prepared baking dish.  Top with 1 1/2 cups of shredded cheeses, then top that with the remaining pasta mixture.\n" +
                                 "Sprinkle the top with the last 1 1/2 cups of cheese and bake for 15 minutes, until cheesy is bubbly and lightly golden brown.\n",
-                "url": "https://www.thechunkychef.com/wp-content/uploads/2018/02/Ultimate-Creamy-Baked-Mac-and-Cheese-baking-dish-1089x1536.jpg"
+                "url": "https://i.imgur.com/qcMOUrb.jpg"
             },
             {
                 "id": "12",
-                "name": "Smashed Burger serves 4",
+                "name": "Smashed Burger",
+                "portion": "Serves 4",
                 "type": "Main Dish",
                 "ingredients": "1 1/2 pounds ground beef, 80/20 lean\n" +
                         "1/2 cup mayonnaise\n" +

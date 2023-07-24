@@ -14,6 +14,8 @@ const RecipesStyling = styled.div`
         max-width: 80%;
     }
     select{
+        position: absolute;
+        right:0px;
         height:20px;
         margin: 20px;
     }
@@ -42,7 +44,7 @@ export default function Recipes(props){
 
     const filteredArray = []
     for (let i = 0; i < recipesData.data.recipes.length; i++) {
-        if (recipesData.data.recipes[i].type == formData.foodType || formData.foodType == "blank") {
+        if (recipesData.data.recipes[i].type == formData.foodType || formData.foodType == "blank" || formData.foodType == "") {
             filteredArray.push(recipesData.data.recipes[i]);
         }
     }
