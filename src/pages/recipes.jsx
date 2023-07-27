@@ -7,6 +7,13 @@ const RecipesStyling = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    h1{
+        width: 100%;
+        border: red solid 2px;
+        margin: 0px;
+        text-align: center;
+        font-size: 50px;
+    }
     section{
         display: flex;
         flex-wrap: wrap;
@@ -44,7 +51,7 @@ export default function Recipes(props){
 
     const filteredArray = []
     for (let i = 0; i < recipesData.data.recipes.length; i++) {
-        if (recipesData.data.recipes[i].type == formData.foodType || formData.foodType == "blank" || formData.foodType == "") {
+        if (recipesData.data.recipes[i].type == formData.foodType || formData.foodType == "All Dishes" || formData.foodType == "") {
             filteredArray.push(recipesData.data.recipes[i]);
         }
     }
@@ -60,9 +67,15 @@ export default function Recipes(props){
             />
         )
     })
-    console.log(recipesData.data.recipes[0].type)
+    let dishes = "All Dishes"
+    if (formData.foodType == "Dessert")
+        dishes = "Dessert"
+    if (formData.foodType == "Main Dish")
+        dishes = "Main Dish"
+
     return(
             <RecipesStyling >
+                <h1>{dishes}</h1>
                 <section>
                     {recipesPictures}
                 </section>
@@ -71,9 +84,9 @@ export default function Recipes(props){
                         onChange={handleChange}
                         name="foodType"
                 >
-                    <option value="blank"></option>
-                    <option value="Dessert">Dessert</option>
-                    <option value="Main Dish">Main Dish</option>
+                    <option value="All Dishes">All Dishes</option>
+                    <option value="Dessert">Desserts</option>
+                    <option value="Main Dish">Main Dishes</option>
                 </select>
             </RecipesStyling>
     )

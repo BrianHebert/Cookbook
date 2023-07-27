@@ -1,7 +1,3 @@
-.ingredients{ 
-    white-space: pre-wrap; /* makes it so \n works as a new line */
-}
-
-.preperation{
-    white-space: pre-wrap; /* makes it so \n works as a new line */
+body{
+    background-color: rgb(255, 243, 209);
 }
