@@ -4,6 +4,8 @@ import RecipePictures from "../components/RecipePictures.jsx"
 import styled from "styled-components";
  
 const RecipesStyling = styled.div`
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

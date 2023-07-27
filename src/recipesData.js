@@ -85,21 +85,21 @@ export default {
                 "name": "Chicken Ramen",
                 "portion": "Serves 2",
                 "type": "Main Dish",
-                "ingredients": "2 chicken breasts (boneless, skin-on)\n" +
-                        "kosher salt and freshly-ground black pepper, to season\n" +
-                        "1 Tbsp unsalted butter\n" +
-                        "2 tsp sesame or vegetable oil\n" +
-                        "2 tsp fresh ginger, minced\n" +
-                        "1 Tbsp fresh garlic, minced\n" +
-                        "3 Tbsp low-sodium soy sauce\n" +
-                        "2 Tbsp mirin\n" +
-                        "4 cups rich chicken stock\n" +
-                        "1 oz dried shitake mushrooms\n" +
-                        "1-2 tsp sea salt, to taste\n" +
-                        "2 large eggs\n" +
-                        "½ cup scallions, sliced\n" +
-                        "2 (3 oz) packs dried ramen noodles\n" +
-                        "optional: fresh jalapeño or chili slices, for serving\n",
+                "ingredients":  "2 chicken breasts (boneless, skin-on)\n" +
+                                "1 Tbsp unsalted butter\n" +
+                                "2 tsp sesame or vegetable oil\n" +
+                                "2 tsp fresh ginger, minced\n" +
+                                "1 Tbsp fresh garlic, minced\n" +
+                                "3 Tbsp low-sodium soy sauce\n" +
+                                "2 Tbsp mirin\n" +
+                                "4 cups rich chicken stock\n" +
+                                "1 oz dried shitake mushrooms\n" +
+                                "1-2 tsp sea salt, to taste\n" +
+                                "2 large eggs\n" +
+                                "½ cup scallions, sliced\n" +
+                                "2 (3 oz) packs dried ramen noodles\n" +
+                                "kosher salt and freshly-ground black pepper, to season\n" +
+                                "optional: fresh jalapeño or chili slices, for serving\n",
                 "preperation":  "1. Preheat the oven to 375℉. Season the chicken generously with salt and pepper.\n\n" +
                                 "2. Melt the butter in a large oven-safe skillet over medium heat. Add the chicken, skin-side down, and cook until the skin is golden brown and releases easily from the pan, about 5-7 minutes. Flip the chicken over and cook for another 4-5 minutes, until golden.\n\n" +
                                 "3. Transfer the skillet to the oven and roast for 15-20 minutes, until the chicken is cooked through. Remove from the oven, transfer the chicken to a plate, and cover with foil until ready to serve.\n\n" +
@@ -246,7 +246,6 @@ export default {
                 "portion": "Serves 2",
                 "type": "Main Dish",
                 "ingredients": "2 chicken breasts (boneless, skin-on)\n" +
-                        "kosher salt and freshly-ground black pepper, to season\n" +
                         "1 Tbsp unsalted butter\n" +
                         "2 tsp sesame or vegetable oil\n" +
                         "2 tsp fresh ginger, minced\n" +
@@ -259,6 +258,7 @@ export default {
                         "2 large eggs\n" +
                         "½ cup scallions, sliced\n" +
                         "2 (3 oz) packs dried ramen noodles\n" +
+                        "kosher salt and freshly-ground black pepper, to season\n" +
                         "optional: fresh jalapeño or chili slices, for serving\n",
                 "preperation":  "1. Preheat the oven to 375℉. Season the chicken generously with salt and pepper.\n\n" +
                                 "2. Melt the butter in a large oven-safe skillet over medium heat. Add the chicken, skin-side down, and cook until the skin is golden brown and releases easily from the pan, about 5-7 minutes. Flip the chicken over and cook for another 4-5 minutes, until golden.\n\n" +

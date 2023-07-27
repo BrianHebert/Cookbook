@@ -17,7 +17,8 @@ const NavbarStyling = styled.ul`
     border: red 2px solid;
     margin:0px;
     padding:20px;
-    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    font-family: 'Poppins', sans-serif;
     .logo{
         width: 200px;
         max-height: 100px;

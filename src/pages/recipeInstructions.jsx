@@ -6,6 +6,7 @@ const RecipeStyling = styled.div`
     border: 2px red solid;
     margin-right: 20px;
     margin-left: 20px;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     img{
         float: right;
         width: 49%;
@@ -13,26 +14,26 @@ const RecipeStyling = styled.div`
         
     }
     .recipe{
-       
+        font-family: 'Poppins', sans-serif;
 
     }
     .ingredients{
         white-space: pre-wrap; /* makes it so \n works as a new line */
         margin-top: 0px;
         font-size: 20px;
-        
+        font-family: 'Poppins', sans-serif;
     }
     h2{
         margin: 0px;
         padding: 0px;
-        
+        font-family: 'Poppins', sans-serif;
     }
     .preperation{
         white-space: pre-wrap; /* makes it so \n works as a new line */
         margin: 0px;
         width 49%;
         font-size: 20px;
-        
+        font-family: 'Poppins', sans-serif;
     }
 `;
 
