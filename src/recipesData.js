@@ -25,7 +25,8 @@ export default {
                                 "6. Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet, leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of space from the edges of the pan so that the cookies can spread evenly.\n\n" +
                                 "7. Bake for 12-15 minutes, or until the edges have started to barely brown.\n\n" +
                                 "8. Cool completely before serving.",
-                "url": "https://i.imgur.com/45DLFe3.jpg"
+                "url": "https://i.imgur.com/45DLFe3.jpg",
+                "isFeatured": "False"
                                 
             },
             {
@@ -47,7 +48,8 @@ export default {
                 "preperation": "Heat oven to 400°F. Line cookie sheet with foil. Place sweet potatoes on cookie sheet. Roast 1 hour or until tender. Cut potatoes in half. Scoop out pulp into medium bowl; discard skins. Reduce oven temperature to 350°F.\n\n" +
                                 "Place pie crust in 9-inch deep-dish pie plate as directed on box for One-Crust Filled Pie. Beat sweet potato pulp with electric mixer on medium speed until creamy. Add remaining ingredients; beat 1 minute or until well blended. Pour filling into crust-lined plate.\n\n" +
                                 "Bake 1 hour 15 minutes or until knife inserted near center comes out clean. Cool for 1 hour on cooling rack; cover loosely and refrigerate before serving. Store covered in refrigerator.",
-                "url": "https://i.imgur.com/ht8olAi.jpg"
+                "url": "https://i.imgur.com/ht8olAi.jpg",
+                "isFeatured": "False"
                                 
             },
             {
@@ -78,28 +80,29 @@ export default {
                                 "6. Combine the evaporated milk, sweetened condensed milk, and whole milk in a small bowl. Once the cake has cooled use a fork to poke holes all over the top of the cake. \n\n" +
                                 "7. Slowly pour the milk mixture over the the top of the cake, making sure to pour near the edges and all around. Refrigerate the cake for at least 1 hour or overnight, to allow it to soak up the milk.\n\n" +
                                 "8. In the meantime, whip the heavy cream, sugar and vanilla until stiff peaks. Smooth over the top of the cake. Sprinkle cinnamon on top. Serve with fresh sliced strawberries, if desired. Enjoy!\n\n",
-                "url": "https://i.imgur.com/U2zibXk.jpg"
+                "url": "https://i.imgur.com/U2zibXk.jpg",
+                "isFeatured": "True"
             },
             {
                 "id": "4",
                 "name": "Chicken Ramen",
                 "portion": "Serves 2",
                 "type": "Main Dish",
-                "ingredients":  "2 chicken breasts (boneless, skin-on)\n" +
-                                "1 Tbsp unsalted butter\n" +
-                                "2 tsp sesame or vegetable oil\n" +
-                                "2 tsp fresh ginger, minced\n" +
-                                "1 Tbsp fresh garlic, minced\n" +
-                                "3 Tbsp low-sodium soy sauce\n" +
-                                "2 Tbsp mirin\n" +
-                                "4 cups rich chicken stock\n" +
-                                "1 oz dried shitake mushrooms\n" +
-                                "1-2 tsp sea salt, to taste\n" +
-                                "2 large eggs\n" +
-                                "½ cup scallions, sliced\n" +
-                                "2 (3 oz) packs dried ramen noodles\n" +
-                                "kosher salt and freshly-ground black pepper, to season\n" +
-                                "optional: fresh jalapeño or chili slices, for serving\n",
+                "ingredients": "2 chicken breasts (boneless, skin-on)\n" +
+                            "1 Tbsp unsalted butter\n" +
+                            "2 tsp sesame or vegetable oil\n" +
+                            "2 tsp fresh ginger, minced\n" +
+                            "1 Tbsp fresh garlic, minced\n" +
+                            "3 Tbsp low-sodium soy sauce\n" +
+                            "2 Tbsp mirin\n" +
+                            "4 cups rich chicken stock\n" +
+                            "1 oz dried shitake mushrooms\n" +
+                            "1-2 tsp sea salt, to taste\n" +
+                            "2 large eggs\n" +
+                            "½ cup scallions, sliced\n" +
+                            "2 (3 oz) packs dried ramen noodles\n" +
+                            "kosher salt and freshly-ground black pepper, to season\n" +
+                            "optional: fresh jalapeño or chili slices, for serving\n",
                 "preperation":  "1. Preheat the oven to 375℉. Season the chicken generously with salt and pepper.\n\n" +
                                 "2. Melt the butter in a large oven-safe skillet over medium heat. Add the chicken, skin-side down, and cook until the skin is golden brown and releases easily from the pan, about 5-7 minutes. Flip the chicken over and cook for another 4-5 minutes, until golden.\n\n" +
                                 "3. Transfer the skillet to the oven and roast for 15-20 minutes, until the chicken is cooked through. Remove from the oven, transfer the chicken to a plate, and cover with foil until ready to serve.\n\n" +
@@ -109,7 +112,8 @@ export default {
                                 "7. Meanwhile, fill a large bowl with ice water. When the timer finishes, transfer the eggs to the ice bath to stop the cooking process. Wait at least 5 minutes, or until cool enough to handle, then carefully peel away the shell and slice in half, lengthwise. Set aside until ready to serve.\n\n" +
                                 "8. Meanwhile, chop the scallions and jalapeño (if using). Slice the chicken into thin pieces. Set aside. When the eggs finish cooking, add the ramen noodles to the boiling water.\n\n" +
                                 "9. Cook for 2-3 minutes, until soft, then divide the noodles into two large bowls. Add the sliced chicken and the ramen broth. Top with the fresh scallions, jalapeño, and the soft boiled egg. Serve immediately. Enjoy!!",
-                "url": "https://i.imgur.com/W36DNP3.jpg"
+                "url": "https://i.imgur.com/W36DNP3.jpg",
+                "isFeatured": "False"
             },
             {
                 "id": "5",
@@ -134,7 +138,8 @@ export default {
                                 "6. Remove from the heat and stir in spices and 1 1/2 cups of the cheeses, stirring to melt and combine.  Stir in another 1 1/2 cups of cheese, and stir until completely melted and smooth.\n\n" +
                                 "7. In a large mixing bowl, combine drained pasta with cheese sauce, stirring to combine fully.  Pour half of the pasta mixture into the prepared baking dish.  Top with 1 1/2 cups of shredded cheeses, then top that with the remaining pasta mixture.\n\n" +
                                 "8. Sprinkle the top with the last 1 1/2 cups of cheese and bake for 15 minutes, until cheesy is bubbly and lightly golden brown.\n\n",
-                "url": "https://i.imgur.com/qcMOUrb.jpg"
+                "url": "https://i.imgur.com/qcMOUrb.jpg",
+                "isFeatured": "False"
             },
             {
                 "id": "6",
@@ -160,7 +165,8 @@ export default {
                                 "4. Space beef balls on hot cooking surface. Using a large metal spatula, smash each ball to 1/4-inch-thick patties. (Tips: using the handle of a second spatula to push down on the top of the spatula adds leverage. Using parchment helps avoid spatula sticking to beef.)\n\n" +
                                 "5. Season patties with 1-tsp of reserved special sauce per patty; salt and pepper. Sear 2-3 minutes or until some fat begins to bubble up in center of patty. Quickly flip and top 4 of the patties with a slice of cheese. Sear another minute and place a plain patty atop a cheese patty; remove from cooking surface.\n\n" +
                                 "6. Build burgers with a smear of special sauce on bottom bun followed by shredded lettuce, tomato, double burgers and top bun.\n\n",
-                "url": "https://www.certifiedangusbeef.com/recipes/images/recipes/49c32394-cd1b-44e8-83fd-7496f357d8bb.jpg"
+                "url": "https://www.certifiedangusbeef.com/recipes/images/recipes/49c32394-cd1b-44e8-83fd-7496f357d8bb.jpg",
+                "isFeatured": "False"
             },
             {
                 "id": "7",
@@ -185,7 +191,8 @@ export default {
                                 "6. Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet, leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of space from the edges of the pan so that the cookies can spread evenly.\n\n" +
                                 "7. Bake for 12-15 minutes, or until the edges have started to barely brown.\n\n" +
                                 "8. Cool completely before serving.",
-                "url": "https://i.imgur.com/45DLFe3.jpg"
+                "url": "https://i.imgur.com/45DLFe3.jpg",
+                "isFeatured": "False"
                                 
             },
             {
@@ -207,7 +214,8 @@ export default {
                 "preperation": "Heat oven to 400°F. Line cookie sheet with foil. Place sweet potatoes on cookie sheet. Roast 1 hour or until tender. Cut potatoes in half. Scoop out pulp into medium bowl; discard skins. Reduce oven temperature to 350°F.\n\n" +
                                 "Place pie crust in 9-inch deep-dish pie plate as directed on box for One-Crust Filled Pie. Beat sweet potato pulp with electric mixer on medium speed until creamy. Add remaining ingredients; beat 1 minute or until well blended. Pour filling into crust-lined plate.\n\n" +
                                 "Bake 1 hour 15 minutes or until knife inserted near center comes out clean. Cool for 1 hour on cooling rack; cover loosely and refrigerate before serving. Store covered in refrigerator.",
-                "url": "https://i.imgur.com/ht8olAi.jpg"
+                "url": "https://i.imgur.com/ht8olAi.jpg",
+                "isFeatured": "False"
                                 
             },
             {
@@ -238,7 +246,8 @@ export default {
                                 "6. Combine the evaporated milk, sweetened condensed milk, and whole milk in a small bowl. Once the cake has cooled use a fork to poke holes all over the top of the cake. \n\n" +
                                 "7. Slowly pour the milk mixture over the the top of the cake, making sure to pour near the edges and all around. Refrigerate the cake for at least 1 hour or overnight, to allow it to soak up the milk.\n\n" +
                                 "8. In the meantime, whip the heavy cream, sugar and vanilla until stiff peaks. Smooth over the top of the cake. Sprinkle cinnamon on top. Serve with fresh sliced strawberries, if desired. Enjoy!",
-                "url": "https://i.imgur.com/U2zibXk.jpg"
+                "url": "https://i.imgur.com/U2zibXk.jpg",
+                "isFeatured": "False"
             },
             {
                 "id": "10",
@@ -269,7 +278,8 @@ export default {
                                 "7. Meanwhile, fill a large bowl with ice water. When the timer finishes, transfer the eggs to the ice bath to stop the cooking process. Wait at least 5 minutes, or until cool enough to handle, then carefully peel away the shell and slice in half, lengthwise. Set aside until ready to serve.\n\n" +
                                 "8. Meanwhile, chop the scallions and jalapeño (if using). Slice the chicken into thin pieces. Set aside. When the eggs finish cooking, add the ramen noodles to the boiling water.\n\n" +
                                 "9. Cook for 2-3 minutes, until soft, then divide the noodles into two large bowls. Add the sliced chicken and the ramen broth. Top with the fresh scallions, jalapeño, and the soft boiled egg. Serve immediately. Enjoy!!",
-                "url": "https://i.imgur.com/W36DNP3.jpg"
+                "url": "https://i.imgur.com/W36DNP3.jpg",
+                "isFeatured": "False"
             },
             {
                 "id": "11",
@@ -294,7 +304,8 @@ export default {
                                 "6. Remove from the heat and stir in spices and 1 1/2 cups of the cheeses, stirring to melt and combine.  Stir in another 1 1/2 cups of cheese, and stir until completely melted and smooth.\n\n" +
                                 "7. In a large mixing bowl, combine drained pasta with cheese sauce, stirring to combine fully.  Pour half of the pasta mixture into the prepared baking dish.  Top with 1 1/2 cups of shredded cheeses, then top that with the remaining pasta mixture.\n\n" +
                                 "8. Sprinkle the top with the last 1 1/2 cups of cheese and bake for 15 minutes, until cheesy is bubbly and lightly golden brown.\n",
-                "url": "https://i.imgur.com/qcMOUrb.jpg"
+                "url": "https://i.imgur.com/qcMOUrb.jpg",
+                "isFeatured": "False"
             },
             {
                 "id": "12",
@@ -320,7 +331,8 @@ export default {
                                 "4. Space beef balls on hot cooking surface. Using a large metal spatula, smash each ball to 1/4-inch-thick patties. (Tips: using the handle of a second spatula to push down on the top of the spatula adds leverage. Using parchment helps avoid spatula sticking to beef.)\n\n" +
                                 "5. Season patties with 1-tsp of reserved special sauce per patty; salt and pepper. Sear 2-3 minutes or until some fat begins to bubble up in center of patty. Quickly flip and top 4 of the patties with a slice of cheese. Sear another minute and place a plain patty atop a cheese patty; remove from cooking surface.\n\n" +
                                 "6. Build burgers with a smear of special sauce on bottom bun followed by shredded lettuce, tomato, double burgers and top bun.",
-                "url": "https://www.certifiedangusbeef.com/recipes/images/recipes/49c32394-cd1b-44e8-83fd-7496f357d8bb.jpg"
+                "url": "https://www.certifiedangusbeef.com/recipes/images/recipes/49c32394-cd1b-44e8-83fd-7496f357d8bb.jpg",
+                "isFeatured": "False"
             },
         ]
     }
