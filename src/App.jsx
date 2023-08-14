@@ -11,6 +11,7 @@ import Home from './pages/home'
 import Recipes from './pages/recipes'
 import Products from './pages/prducts'
 import RecipeInstructions from './pages/recipeInstructions'
+import RecipeApiInstructions from './pages/recipeApiInstructions';
 import recipesData from "./recipesData"
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/recipes" element={<Recipes />}/>
           <Route path="/products" element={<Products />}/>
           <Route path="/recipeInstructions" element={<RecipeInstructions />}/>
+          <Route path="/recipeApiInstructions" element={<RecipeApiInstructions />}/>
         </Routes>
       </Router>
     </div>

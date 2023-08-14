@@ -13,7 +13,7 @@ export default function RecipeApiPictures(props){
     }
     return(
         <div>
-            <NavLink to= "/recipeApiInstructions" state={{recipe: props.recipe}}><img src={props.item.recipe.image} onMouseOver={handleHover} onMouseOut={handleUnhover}/></NavLink>
+            <NavLink to= "/recipeApiInstructions" state={{recipe: props.item.recipe}}><img src={props.item.recipe.image} onMouseOver={handleHover} onMouseOut={handleUnhover}/></NavLink>
             {isHovered && (<p className="recipeName">{props.item.recipe.label}</p>)}
             {isHovered && (<p className="portion">Serves {props.item.recipe.yield}</p>)}
         </div>
