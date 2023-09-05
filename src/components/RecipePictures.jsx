@@ -16,7 +16,7 @@ const ImgStyling = styled.ul`
         margin: 0px;            //this is so the other recipes do not move when one is hovered
         height: 0px;            //this is so the other recipes do not move when one is hovered
         position: relative;     //this is so the other recipes do not move when one is hovered
-        top: -170px;            //to get the text where i want it over the picture
+        top: -270px;            //to get the text where i want it over the picture
         color: white;
         text-align: center;
         font-size: 25px;
@@ -27,9 +27,10 @@ const ImgStyling = styled.ul`
         margin: 0px;            //this is so the other recipes do not move when one is hovered
         height: 0px;            //this is so the other recipes do not move when one is hovered
         position: relative;     //this is so the other recipes do not move when one is hovered
-        top: -130px;            //to get the text where i want it over the picture
+        top: -50px;            //to get the text where i want it over the picture
         text-align: center;
         color: white;
+        font-size: 25px;
         font-family: 'Poppins', sans-serif;
         pointer-events: none;   //fixes bug so when you hover over text the picture still stays hovered too
     }

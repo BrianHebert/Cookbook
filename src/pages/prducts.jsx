@@ -1,5 +1,34 @@
 import React from "react";
 import RecipeApiPictures from "../components/RecipeApiPictures";
+import styled from "styled-components";
+
+const RecipesStyling = styled.div`
+    
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    h1{
+        width:100%;
+        text-align: center;
+        border: red 2px solid;
+        margin: 0px;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 80%;
+    }
+    form{
+        width:100%;
+        border: red 2px solid;
+        display: block;
+        text-align: center;
+    }
+`
 
 
 export default function Products(){
@@ -26,16 +55,16 @@ export default function Products(){
 
 
     return(
-        <div>
-            Products
+        <RecipesStyling>
+            <h1>Search Recipies</h1>
             <form>
                 <input type="text" onChange={(event) => {setSearch(event.target.value)}}></input>
-                <button type="button" onClick={callRecipeAPI}>callRecipeAPI</button>
+                <button type="button" onClick={callRecipeAPI}>Search</button>
             </form>
             <section>
                 {recipieApiPictures}
             </section>
-        </div>
+        </RecipesStyling>
         
     )
 }
