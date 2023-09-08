@@ -8,6 +8,7 @@ const ImgStyling = styled.ul`
     padding: 10px;
     img{
         width:400px;
+        min-height: 266px;
     }
     img:hover{
         filter: brightness(50%)
@@ -17,6 +18,8 @@ const ImgStyling = styled.ul`
         height: 0px;            //this is so the other recipes do not move when one is hovered
         position: relative;     //this is so the other recipes do not move when one is hovered
         top: -270px;            //to get the text where i want it over the picture
+        width: 400px;
+        word-wrap: normal;
         color: white;
         text-align: center;
         font-size: 25px;

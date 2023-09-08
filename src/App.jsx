@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar"
 import Home from './pages/home'
 import Recipes from './pages/recipes'
-import Products from './pages/prducts'
+import Search from './pages/search'
 import RecipeInstructions from './pages/recipeInstructions'
 import RecipeApiIngredients from './pages/recipeApiIngredients';
 import recipesData from "./recipesData"
@@ -26,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/recipes" element={<Recipes />}/>
-          <Route path="/products" element={<Products />}/>
+          <Route path="/search" element={<Search />}/>
           <Route path="/recipeInstructions" element={<RecipeInstructions />}/>
           <Route path="/RecipeApiIngredients" element={<RecipeApiIngredients />}/>
         </Routes>

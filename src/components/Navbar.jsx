@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom"
 import styled from "styled-components";
 
 const linkStyle ={
-    textDecoration: "none",
     color : "black",
     paddingLeft: "20px"
 }
@@ -14,27 +13,26 @@ const NavbarStyling = styled.ul`
     font-size: 30px;
     text-decoration: none;
     align-items: center;
-    border: red 2px solid;
+    justify-content: center;
+    box-shadow: 0px 3px 10px rgb(226, 215, 181);
     margin:0px;
     padding:20px;
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     font-family: 'Poppins', sans-serif;
-    .logo{
-        width: 200px;
-        max-height: 100px;
-    }
  
 `;
 
 export default function Navbar(){
     return(
         <NavbarStyling>
-            <NavLink to={"/"}><img src={reactLogo} className="logo"/></NavLink>
+            <NavLink 
+            to={"/"} style={linkStyle}>Home
+            </NavLink>
             <NavLink 
                 to={"/recipes"} style={linkStyle}>Recipes
             </NavLink>
             <NavLink 
-                to={"/products"} style={linkStyle}>Products
+                to={"/search"} style={linkStyle}>Search
             </NavLink>
         </NavbarStyling>
     )}

@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 const RecipeStyling = styled.div`
     white-space: pre-wrap; /* makes it so \n works as a new line */
-    border: 2px red solid;
     margin-right: 20px;
     margin-left: 20px;
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -44,7 +43,8 @@ export default function recipeApiInstructions(props){
         ingredients += JSON.stringify(ingredientArray[i])
     }
     ingredients = ingredients.replace('"', '')
-
+    ingredients = ingredients.replace(/""/g, '\n')
+    ingredients = ingredients.replace('"', '')
 
     return(
         <div>
@@ -52,7 +52,7 @@ export default function recipeApiInstructions(props){
                 <img src={url}/>
                 <h1 className="recipe">{name}</h1>
                 <h2>Ingredients</h2>
-                <p className="ingredients">{ingredients.replace(/"/g, '\n')}</p>
+                <p className="ingredients">{ingredients}</p>
                 
             </RecipeStyling>
         </div>

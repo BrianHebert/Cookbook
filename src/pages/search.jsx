@@ -12,8 +12,8 @@ const RecipesStyling = styled.div`
     h1{
         width:100%;
         text-align: center;
-        border: red 2px solid;
-        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 50px;
     }
 
     section{
@@ -24,7 +24,6 @@ const RecipesStyling = styled.div`
     }
     form{
         width:100%;
-        border: red 2px solid;
         display: block;
         text-align: center;
     }
@@ -53,13 +52,22 @@ export default function Products(){
         }))
     }
 
+    function onKeyDown(event){
+        if (event.key == "Enter"){
+            event.preventDefault()
+            console.log(event)
+            document.getElementById("myButton").click()
+        }
+        
+        
+    }
 
     return(
         <RecipesStyling>
             <h1>Search Recipies</h1>
             <form>
-                <input type="text" onChange={(event) => {setSearch(event.target.value)}}></input>
-                <button type="button" onClick={callRecipeAPI}>Search</button>
+                <input id="myInput" type="text" onChange={(event) => {setSearch(event.target.value)}} onKeyDown={event => onKeyDown(event)}></input>
+                <button id="myButton" type="button" onClick={callRecipeAPI}>Search</button>
             </form>
             <section>
                 {recipieApiPictures}

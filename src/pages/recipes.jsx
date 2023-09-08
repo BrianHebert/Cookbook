@@ -11,10 +11,9 @@ const RecipesStyling = styled.div`
     justify-content: center;
     h1{
         width: 100%;
-        border: red solid 2px;
-        margin: 0px;
         text-align: center;
         font-size: 50px;
+        margin-bottom:0px;
     }
     section{
         display: flex;
@@ -27,6 +26,7 @@ const RecipesStyling = styled.div`
         right:0px;
         height:20px;
         margin: 20px;
+        top: 127px;
     }
 `;
 

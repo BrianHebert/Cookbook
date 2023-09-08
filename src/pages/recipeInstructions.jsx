@@ -3,7 +3,6 @@ import {useLocation} from 'react-router-dom'
 import styled from "styled-components";
 
 const RecipeStyling = styled.div`
-    border: 2px red solid;
     margin-right: 20px;
     margin-left: 20px;
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
