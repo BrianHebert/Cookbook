@@ -9,18 +9,20 @@ const RecipeStyling = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     img{
         float: right;
-        width: 49%;
+        width: 30%;
         display: block;
         
     }
     .recipe{
         font-family: 'Poppins', sans-serif;
+        width: 49%;
 
     }
     .ingredients{
         margin-top: 0px;
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
+        width: 49%;
     }
     h2{
         margin: 0px;
